@@ -10,5 +10,9 @@
     background: initial;
 }
 .main-demo-hero .hero-content-wrapper {
-  padding: initial
+    padding: initial
+}
+
+.pricing-tables .p-table .banner{
+    padding-top: 10px;
 }
