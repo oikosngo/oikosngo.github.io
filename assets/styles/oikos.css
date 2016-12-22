@@ -20,3 +20,7 @@
 .logo-big{
     max-width: 100%;
 }
+
+.map-container section {
+    padding-bottom: 0px;
+}
