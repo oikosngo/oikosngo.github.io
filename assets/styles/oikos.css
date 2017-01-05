@@ -1,3 +1,11 @@
+html,
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .main-demo-hero {
   background: url(../images/oikos/banner_img.jpg);
   background-size: cover;
@@ -114,6 +122,10 @@
     align-items: center;
 }
 
+.faq-container .row{
+    margin: 15px 0;
+}
+
 .faq-question{
     text-transform: uppercase;
     font-size: 1.8em;
@@ -218,6 +230,7 @@
 
 .mobile-nav .btn-round{
     position: relative;
+    display: table;
 }
 
 
@@ -265,5 +278,10 @@
     .oikos-gray-module,
     .faq-question{
         text-align: right;
+    }
+}
+@media (max-width: 500px){
+    .talk-to-us-content h1{
+        font-size: 1.1em;
     }
 }
